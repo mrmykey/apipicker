@@ -37,6 +37,6 @@
 			</svg>
 			<p class="pl-1 text-primary">Fork</p>
 		</button>
-        <a href="{'/members'}" target="_blank" class="px-3 py-1 font-semibold bg-white border border-l-0 rounded-l-none rounded-r-lg text-primary border-gh-btn hover:text-indigo-600 bg-secondary">{repository.forks_count}</a>
+        <a href="{`${baseUrl}/members`}" target="_blank" class="px-3 py-1 font-semibold bg-white border border-l-0 rounded-l-none rounded-r-lg text-primary border-gh-btn hover:text-indigo-600 bg-secondary">{repository.forks_count}</a>
 	</div>
 </div>
