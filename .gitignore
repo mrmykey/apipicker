@@ -1,0 +1,7 @@
+/node_modules/
+/public/build/
+/.vs
+/.idea
+
+.DS_Store
+/public/globals.css

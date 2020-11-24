@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+	-webkit-tap-highlight-color: transparent;
+
+	--bg-primary: white;
+	--bg-secondary: #f7f7f7;
+	--badge-bg-blue: #c9ebff;
+	--badge-bg-green: #87ffc5;
+	--badge-bg-orange: #ffd6a5;
+	--bg-gh-btn-left: #fafbfc;
+	--bg-gh-btn-hover: #f3f4f6;
+
+	--text-primary: #1d1d1d;
+	--badge-text-blue: #0077ff;
+	--badge-text-green: #039712;
+	--badge-text-orange: #d67807;
+
+    --border-card: #cfcfcf;
+	--border-gh-btn: #d3d4d7;
+}
+
+.dark {
+	--bg-primary: #3f3f3f;
+	--bg-secondary: #383838;
+	--badge-bg-blue: #0077ff;
+	--badge-bg-green: #2ec13c;
+	--badge-bg-orange: #d27a2a;
+	--bg-gh-btn-left: #353535;
+	--bg-gh-btn-hover: #303030;
+
+	--text-primary: #f8f8f8;
+	--badge-text-blue: #abddfd;
+	--badge-text-green: #87ffc5;
+	--badge-text-orange: #ffe7ca;
+
+    --border-card: #575757;
+	--border-gh-btn: #484848;
+}
+
+html.fade,
+html.fade *,
+html.fade *:before,
+html.fade *:after {
+    transition-property: all;
+    transition: all 800ms !important;
+    transition-delay: 0 !important;
+}
+
+.collpased { max-height: 0; }
+.expanded { max-height: 300px; } 
+
+
+svg > path {
+    fill: var(--text-primary);
+}
+
+a:focus {
+    outline: 0;
+}
+
+.overflow-wrap {
+    overflow-wrap: break-word;
+}
