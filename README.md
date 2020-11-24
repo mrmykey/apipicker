@@ -1,4 +1,4 @@
-![Deploy](https://github.com/jogurtas/apis-client/workflows/Deploy/badge.svg)
+![Deploy](https://github.com/mrmykey/apipicker/workflows/Deploy/badge.svg)
 
 # api picker 🛰️
 
